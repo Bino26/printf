@@ -6,7 +6,7 @@
  - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
  - All your files should end with a new line
  - A README.md file, at the root of the folder of the project is mandatory
- - Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+ - Your code should use the Betty style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
  - You are not allowed to use global variables
  - No more than 5 functions per file
  - In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
@@ -135,6 +135,7 @@ Write a function that produces output according to a format.
  - You don’t have to handle field width
  - You don’t have to handle precision
  - You don’t have to handle the length modifiers
+
 **Repo:**
 
  - GitHub repository: printf
@@ -162,8 +163,8 @@ Create a man page for your function.
  - GitHub repository: printf
  - File: man_3_printf
 
-3. With a face like mine, I do better in print
-#advanced
+#### 3. With a face like mine, I do better in print
+
 Handle the following custom conversion specifiers:
 
  - b: the unsigned int argument is converted to binary
@@ -206,6 +207,7 @@ Handle the following conversion specifiers:
  - You don’t have to handle field width
  - You don’t have to handle precision
  - You don’t have to handle the length modifiers
+
 **Repo:**
 
  - GitHub repository: printf
@@ -218,8 +220,8 @@ Use a local buffer of 1024 chars in order to call write as little as possible.
 
  - GitHub repository: printf
 
-6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
-#advanced
+#### 6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
+
 Handle the following conversion specifier: p.
 
  - You don’t have to handle the flag characters
@@ -270,11 +272,12 @@ Handle the following flag characters for non-custom conversion specifiers:
  - +
  - space
  - #
+
 **Repo:**
 
  - GitHub repository: printf
 
-9. Sarcasm is lost in print
+#### 9. Sarcasm is lost in print
 
 Handle the following length modifiers for non-custom conversion specifiers:
 
@@ -323,6 +326,7 @@ Handle the - flag character for non-custom conversion specifiers.
 Handle the following custom conversion specifier:
 
  - r : prints the reversed string
+
 **Repo:**
 
  - GitHub repository: printf
@@ -332,6 +336,7 @@ Handle the following custom conversion specifier:
 Handle the following custom conversion specifier:
 
  - R: prints the rot13'ed string
+
 **Repo:**
 
  - GitHub repository: printf
