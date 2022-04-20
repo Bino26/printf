@@ -1,7 +1,7 @@
-<<<<<<< HEAD
- welcome to our first group project with BANGAH AND ADJOUA, we're replicating the printf() fucntion from the C Standard Library.
+
+ 0x11. C - printf
 =======
- welcome to our first group project, we're replicating the printf() fucntion from the C Standard Library.
+ Welcome to our first group project, we're replicating the printf() fucntion from the C Standard Library.
 ## Requirements
 
 ### General
